@@ -1,0 +1,18 @@
+.ri-arrow-drop-left-line{
+    @include slider-icon;
+}
+.ri-arrow-drop-right-line{
+    @include slider-icon;
+}
+.carousel-control-prev {
+    display: none;
+    @include media-breakpoint-up(md) {     display: block;}
+    left: -37px;
+}
+.carousel-control-next {
+    display: none;
+    @include media-breakpoint-up(md) {     display: block;
+    width: 7%;
+    }
+    right: 7px;
+}

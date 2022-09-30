@@ -1,0 +1,21 @@
+.footer{
+    background-color: $color-black;
+    padding: 40px 0;
+    &__links{
+        font-size: 33px;
+        font-weight: 700;
+        color: $color-white;
+        margin-bottom: 35px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+    &__copyright{
+        font-size: 12px;
+        font-weight: 700;
+        color: $color-white;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+}

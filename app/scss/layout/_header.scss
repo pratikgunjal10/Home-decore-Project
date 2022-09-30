@@ -1,0 +1,24 @@
+.header{
+   
+   background-color: $color-white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 120px;
+   @include media-breakpoint-up(sm) { 
+      width: 100%;
+      
+    }
+    @include media-breakpoint-up(sm) { 
+      height: 166px;
+    }
+      img{
+         width: 75%;
+         @include media-breakpoint-up(sm) { 
+            width:fit-content;
+           }
+           @include media-breakpoint-up(md) { 
+      
+           }
+      }
+}

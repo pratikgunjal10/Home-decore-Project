@@ -1,0 +1,8 @@
+@mixin slider-icon{
+    color:$color-gray;
+    font-size:46px;
+    opacity: 0.4;
+    &:hover{
+        opacity: 1;
+    }
+}
